@@ -1,0 +1,124 @@
+body {
+    background-color: #6FD2EB;
+    font-size: 100%;
+    
+}
+p {
+    color:#000000;
+    font-size: 1.5em;
+    text-align: left;
+    width:80%;
+    margin-left: 4%;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.homep{
+    width: 50%;
+}
+.pimgdiv{
+    position: relative;
+    left: 50%;
+}
+.pimg {
+    display:block;
+    width: 45%;
+}
+h1 {
+    text-decoration:none;
+    text-align: center;
+    color: #000000;
+    font-family: cursive;
+    text-shadow: 3px 3px #04AA6D;
+    
+    
+}
+h3 {
+    text-decoration: underline;
+    font-family: cursive;
+    margin-left: 2%;
+}
+hr {
+    height: 5px;
+    background-color: #04AA6D;
+    border: none;
+}
+.info_hr {
+    height: 2px;
+    width: 40%;
+}
+form {
+    text-align:center;
+    font-size: large;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.titleimg {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-width: 500px;
+
+}
+
+.blogpic {
+    width: 50%;
+    margin-right: 2%;
+    float: right;
+    margin: 1%;
+    border: #000000;
+    border-style: solid;
+    border-width: 5px;
+    max-width: 400px;
+    
+}
+input {
+    
+    border:none;
+    border-bottom: 2px solid #04AA6D;
+    background-color: #6FD2EB;
+
+}
+::placeholder {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  }
+select {
+    border: #04AA6D;
+    border-style: solid;
+    border-radius: 4px;
+    background-color: #04AA6D;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+  }
+.navbar {
+    position: sticky;
+    
+}
+.drop {
+    background-color: #04AA6D;
+    
+}
+.info {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}

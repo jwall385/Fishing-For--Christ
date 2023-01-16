@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href ="index.css">
+    <title>Fishing For Christ</title>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">FCC</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Blogs
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu drop">
+              <li><a href="blogs.html">Blog 1</a></li>
+              <li><a href="blogs.html#blog2">Blog 2</a></li>
+              <li><a href="blogs.html#blog3">Blog 3</a></li>
+              <li><a href="blogs.html#blog4">Blog 4</a></li>
+              <li><a href="blogs.html#blog5">Blog 5</a></li>
+            </ul>
+          </li>
+          <li><a href="schedule_a_trip.html">Schedule a Trip</a></li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+      
+      <h1>Book a Trip With Jeff!</h1>
+
+      <div>
+        <form method="POST" action="https://www.actionforms.io/e/r/fishing-for-christ" target="_blank">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="name" name = "name" placeholder="John Doe"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="JohnDoe@hotmail.com"><br>
+            <label for="phone_number">Phone Number:</label><br>
+            <input type="tel" id="phone_number" name="phone_number" placeholder="(405) 123-4567"><br>
+            <label for="date">Date:</label><br>
+            <select id="date" name="date">
+                <option value="Date 1">Date and Time 1</option>
+                <option value="Date 2">Date and Time 2</option>
+                <option value="Date 3">Date and Time 3</option>
+                <option value="Date 4">Date and Time 4</option>
+                <option value="Date 5">Date and Time 5</option>
+            </select><br>
+            <label for="lake">lake of Choice:</label>
+            <label for="texoma">Texoma</label>
+            <input type="radio" id="texoma" name="lake" value="Texoma">
+            <label for="durant">Durant</label>
+            <input type="radio" id="durant" name="lake" value="Durant"><br>
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    </div>
+
+</body>
+</html>
